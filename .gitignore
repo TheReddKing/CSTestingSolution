@@ -2,3 +2,4 @@
 #ex. 
 #*.abc would ignore all .abc files
 #!*.js would prevent any .js files from  being ignored
+XMLParser/__pycache__/*

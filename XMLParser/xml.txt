@@ -1,0 +1,1209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<POOL>
+	<TITLE value='Review_5_Printf'/>
+	<DESCRIPTION>
+		<TEXT>Review_5_Printf</TEXT>
+	</DESCRIPTION>
+	<QUESTIONLIST>
+		<QUESTION id='q1' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q2' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q3' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q4' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q5' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q6' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q7' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q8' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q9' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q10' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q11' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q12' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q13' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q14' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q15' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q16' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q17' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q18' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q19' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q20' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q21' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q22' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q23' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q24' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q25' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q26' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q27' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q28' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q29' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q30' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q31' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q32' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q33' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q34' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q35' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q36' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q37' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q38' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q39' class='QUESTION_MULTIPLECHOICE'/>
+		<QUESTION id='q40' class='QUESTION_MULTIPLECHOICE'/>
+	</QUESTIONLIST>
+	<QUESTION_MULTIPLECHOICE id='q1'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>System.out.printf("%d %s", 12, "State");</span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q1_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12 State</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q1_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>State</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q1_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>State 12</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q1_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12State</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q1_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>State12</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q1_a1'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q2'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>System.out.printf("%f $%f #%d", 1.2, 2.3, 5);</span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q2_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>1.2 $2.3 #5</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q2_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>1.20 $2.30 #5</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q2_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>1.200 $2.300 #5</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q2_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>1.200000 $2.300000 #5</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q2_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>1.2000 $2.3000 #5</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q2_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q3'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>System.out.printf("My name is %s", "Joe");</span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q3_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>Joe</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q3_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>My name is Joe</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q3_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>My name is %s</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q3_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>My name is mud</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q3_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>My name is</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q3_a2'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q4'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24; <br>double x = 2.4; <br></span></span><span style='font-family:"Courier New"'><span style='font-size:10pt'>System.out.printf("a %d + x  &f", a);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q4_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q4_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + 2.4</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q4_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + x  &f</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q4_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q4_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + x  &f + Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q4_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q5'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24; <br>double x = 2.4; <br></span></span><span style='font-family:"Courier New"'><span style='font-size:10pt'>System.out.printf("a %d + x  &f", a, x);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q5_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q5_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + 2.4</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q5_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + x  &f</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q5_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q5_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + x  &f + Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q5_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q6'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24; <br>double x = 2.4; <br></span></span><span style='font-family:"Courier New"'><span style='font-size:10pt'>System.out.printf("a %d + %.2f", a, x);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q6_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q6_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + 2.4</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q6_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + x  &f</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q6_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + 2.40</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q6_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>a 24 + 2.400</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q6_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q7'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>String n = "Texas";<br>System.out.printf("1%d, %s #1", a, n);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q7_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24, Texas #1</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q7_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>124, Texas #1</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q7_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>1%d, Texas #1</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q7_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>124, Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q7_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24, Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q7_a2'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q8'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>double x = 2.4;<br>String n = "Texas";<br>System.out.printf("x%x a%d n%s", a, a, n);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q8_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>x18 a24 n</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q8_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>x18 24 nTexas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q8_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>18 a24 nTexas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q8_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>x18 a24 Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q8_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>x18 a24 nTexas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q8_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q9'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>System.out.printf("%d %o %x", a, a, a);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q9_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24 30 18</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q9_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24 24 18</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q9_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24 30 24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q9_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24 24 24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q9_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24 30 16</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q9_a1'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q10'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>System.out.printf("%d %d %x", a, a, a);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q10_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24 30 18</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q10_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24 24 18</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q10_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24 30 24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q10_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24 24 24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q10_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24 30 16</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q10_a2'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q11'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>double x = 2.4;<br>String n = "Texas";<br>System.out.printf("%-4dx%s", a, n);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q11_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24  x Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q11_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24  2.4Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q11_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24  xTexas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q11_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>-24  2.4Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q11_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>-24  xTexas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q11_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q12'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>double x = 2.4;<br>String n = "Texas";<br>System.out.printf("%-4d%f%s", a, x, n);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q12_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24  x Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q12_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24  2.4Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q12_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24  2.40Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q12_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24  2.400000Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q12_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>-24  xTexas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q12_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q13'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>double x = 2.4;<br>System.out.printf("%#o %#x", a, a);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q13_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>030 0x20</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q13_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>030 0x2.4</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q13_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>030 0x24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q13_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>030 0x18</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q13_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>030 0x36</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q13_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q14'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>double x = 2.4;<br>System.out.printf("%#o %x", a, x);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q14_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>030 2</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q14_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>030 2.4</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q14_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>030 8</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q14_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>030 16</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q14_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-size:10pt'>There is no output due to runtime error.</span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q14_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q15'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>double x = 2.4;<br>String n = "Texas";<br>System.out.printf("%e %f %s", x, x, n);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q15_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>2.40 2.400 Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q15_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>2.400 2.400 Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q15_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>2.4 2.4 Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q15_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>2.4000 2.4000 Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q15_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>2.400000e+00 2.400000 Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q15_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q16'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>double x = 2.4;<br>System.out.printf("*%5.1f*%3d", x, a);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q16_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*2.4* 24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q16_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*2.4*24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q16_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*  2.4* 24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q16_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*2.4*2.4</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q16_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>***2.4* 24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q16_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q17'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>double x = 2.4;<br>System.out.printf("4.1%5.1f**%5.1f", 51., x);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q17_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>4.1 51.0**  2.4</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q17_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>4.1 51.0** 2.4</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q17_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>4.1 51.0*2.4</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q17_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>4.1 51.02.4</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q17_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>4.151.02.4</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q17_a1'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q18'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>System.out.printf("*%3d**%-5d**", a, a);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q18_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>* 24**24**</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q18_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>* 24**24 **</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q18_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>* 24**24  **</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q18_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*24**24   **</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q18_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>* 24**24   **</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q18_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q19'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>System.out.printf("%04d%04d", a, a);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q19_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>00240024</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q19_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>0404</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q19_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>2424</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q19_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>024024</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q19_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>240024</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q19_a1'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q20'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>System.out.printf("%-4d%04d", a, a);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q20_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>00240024</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q20_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>0404</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q20_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24  24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q20_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24  0024</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q20_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>24000024</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q20_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q21'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>double x = 2.4;<br>String n = "Texas";<br>System.out.printf("*%3$d**%2$f**%1$s", n, x, a);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q21_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*24**2.400000**Texas</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q21_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>Texas*242.400000**</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q21_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*24**Texas2.400**</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q21_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>Texas*24**2.4**</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q21_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*24**2.4000**</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q21_a1'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q22'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int a = 24;<br>System.out.printf("*%4d**%4$d**%2$3d*", a, a, a, a);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q22_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>* 24**24** 24*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q22_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*  24**24**24*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q22_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*  24**24** 24*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q22_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*24**24** 24*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q22_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*  24**24** 24</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q22_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q23'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int c = 27;<br>double y = 12.876;<br>String s = "UIL";<br>System.out.printf("%o**%5.1f %s*", c, y, s);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q23_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>33** 12.9 UIL*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q23_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>33**12.9 UIL*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q23_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>33*12.9 UIL*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q23_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>3312.9 UIL*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q23_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>33** 12.9UIL*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q23_a1'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q24'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><br><span style='font-family:"Courier New"'><span style='font-size:10pt'>int c = 27;<br>int d = 53;<br>System.out.printf("5 %d*%1$d*%4$4d", c, d, 13, 5);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q24_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>5 27*27*  5</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q24_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>5 27*27* 5</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q24_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>5 27*27*   5</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q24_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>5 27*27*5</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q24_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>527*27*   5</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q24_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q25'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>int c = 27;<br>String s = "UIL";<br>System.out.printf("%s %2$d %2$#o %d", s, c, 7, 9);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q25_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL27 03327</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q25_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL 2703327</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q25_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL 27 03327</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q25_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL 27 033 27</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q25_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL 27033 27</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q25_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q26'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>String s = "UIL";<br>System.out.printf("s%5s%s-5s", s, s);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q26_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>s  UILUIL-5s</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q26_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>s UILUIL-5s</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q26_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>sUILUIL-5s</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q26_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>s  UIL-5s</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q26_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>s  UILUIL-5</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q26_a1'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q27'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>int d = 53;<br>int c = 27;<br>System.out.printf("%d**%o**%x", c, d, c);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q27_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>27*65**1b</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q27_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>27**65*1b</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q27_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>27**65**1b</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q27_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>2765**1b</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q27_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>27**651b</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q27_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q28'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>int d = 53;<br>System.out.printf("%06d", d);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q28_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>00053</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q28_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>0053</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q28_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>053</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q28_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>53</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q28_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>000053</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q28_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q29'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>int d = 53;<br>System.out.printf("%03d", d);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q29_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>00053</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q29_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>0053</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q29_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>053</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q29_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>53</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q29_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>000053</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q29_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q30'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>double y = 12.876;<br>System.out.printf("%.2f", y);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q30_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.88</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q30_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.876</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q30_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.9</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q30_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.90</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q30_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.87</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q30_a1'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q31'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>double y = 12.876;<br>System.out.printf("%.1f", y);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q31_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.88</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.876</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.9</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.90</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.87</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q31_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q32'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>double y = 12.87635;<br>System.out.printf("%.3f", y);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q32_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.88</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q32_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.876</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q32_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.8763</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q32_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.87635</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q32_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.8764</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q32_a2'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q33'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>double y = 12.87635;<br>System.out.printf("%.4f", y);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q33_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.88</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q33_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.876</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q33_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.8763</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q33_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.87635</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q33_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>12.8764</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q33_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q34'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>String s = "UIL";<br>System.out.printf("*%-6s*%6s*", s, s);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q34_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*UIL   *  UIL*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q34_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*UIL   *   UIL*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q34_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*UIL   * UIL*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q34_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*UIL   *UIL*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q34_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*UIL * UIL*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q34_a2'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q35'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>int c = 27;<br>int d = 53;<br>System.out.printf("**%2$04d %x %d", c, d );<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q35_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>**0053 1b53</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q35_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>**00531b 53</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q35_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>**0053 1b 53</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q35_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>**00531b53</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q35_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*0053 1b 53</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q35_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q36'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>int c = 27;<br>int d = 53;<br>System.out.printf("**%05d,*$3%d,*%-4d*", c, d, c + 4);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q36_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>**00027,*$353,*31 *</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q36_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>**00027,*$353,*31*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q36_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>**0027,*$353,*31*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q36_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>**00027,*$353,*31  *</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q36_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>**027,*$353,*31  *</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q36_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q37'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>int c = 27;<br>int d = 53;<br>System.out.printf("*%05d*%-4d*", c, d);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q37_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*00027*53 *</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q37_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*00027*53  *</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q37_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*00027*53*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q37_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*0027*53  *</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q37_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*027*53  *</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q37_a2'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q38'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>int c = 27;<br>int d = 53;<br>System.out.printf("*%-5d*%04d*", c, d);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q38_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*27  *0053*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q38_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*27 *0053*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q38_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*27*0053*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q38_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*27*053*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q38_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>*27   *0053*</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q38_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q39'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>String s = "UIL";<br>int c = 27;<br>int d = 53;<br>System.out.printf("%s 55%3d99%d", s+2006, c, d);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q39_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL200655279953</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q39_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL200655 279953</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q39_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL2006 55 27995</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q39_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL2006 55 279953</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q39_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL2006 55279953</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q39_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q40'>
+		<BODY>
+			<TEXT><![CDATA[<div style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'>What is output by the code below?<br><span style='font-family:"Courier New"'><span style='font-size:10pt'><br>String s = "UIL";<br>int c = 27;<br>int d = 53;<br>System.out.printf("%s 55%3d99%d %.1f", s+2006, c, d, 6.98);<br></span></span></div>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q40_a1' position='1'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL2006 55 279953 7.0</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q40_a2' position='2'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL200655 279953 7.0</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q40_a3' position='3'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL2006 55279953 7.0</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q40_a4' position='4'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL2006 55 2799537.0</span></span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q40_a5' position='5'>
+		<TEXT><![CDATA[<span style='font-size:12pt; font-family:"Times New Roman"; color:#000000;'><span style='font-family:"Courier New"'><span style='font-size:10pt'>UIL2006552799537.0</span></span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<FEEDBACK_WHEN_CORRECT>Correct.</FEEDBACK_WHEN_CORRECT>
+			<FEEDBACK_WHEN_INCORRECT>Incorrect.</FEEDBACK_WHEN_INCORRECT>
+			<CORRECTANSWER answer_id='q40_a1'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+</POOL>
